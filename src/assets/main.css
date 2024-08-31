@@ -1,0 +1,27 @@
+@import './reset.css';
+@import './fonts.css';
+
+:root {
+  --general-text: #000;
+  --general-bg: #fff;
+  --gray-color: #9e9e9e;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Inter', 'Arial', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--general-text);
+  background: var(--general-bg);
+}
+
+.container {
+  max-width: 1190px;
+  margin: 0 auto;
+  padding: 0 15px;
+  height: 100%;
+}
