@@ -23,7 +23,7 @@ export const useCurrencyStore = defineStore('currency', () => {
         currencies.value[from][to] = data[key];
       }
     }
-    console.log(currencies.value);
+    
   };
 
   return { currencies, mainCurrency, setCurrencies, currencySelect };

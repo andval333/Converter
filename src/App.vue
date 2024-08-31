@@ -11,7 +11,7 @@ const currencyStore = useCurrencyStore();
 const getCurrencies = async () => {
   try {
     const { data } = await axios.get('https://status.neuralgeneration.com/api/currency');
-    console.log(data);
+    
 
     currencyStore.setCurrencies(data);
   } catch (error) {
